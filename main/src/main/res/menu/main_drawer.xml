@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/privacy_policy"
+        android:icon="@drawable/ic_about"
+        android:title="Privacy Policy"/>
+    <item
+        android:id="@+id/about_us"
+        android:icon="@drawable/ic_about"
+        android:title="About Us"/>
+</group>
+
+
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidcodeman.simpleimagegallery">
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ImageDisplay"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".GalleryActivity"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

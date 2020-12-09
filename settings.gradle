@@ -1,0 +1,5 @@
+include ':gallery'
+include ':app'
+include ':scanlibrary'
+include ':main'
+rootProject.name = "MAPP Scanner"
